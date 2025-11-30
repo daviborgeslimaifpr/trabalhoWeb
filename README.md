@@ -1,7 +1,9 @@
 # trabalhoWeb
 Sistema de cadastro com Node.js, SQLite e frontend simples.
 
-1. Iniciar backend local:
+1. ir em codes e entrar em "trabalhoWeb_DaviBorges_e_ClaraAnzuategui
+
+2. Iniciar backend local:
 
 cd trabalhoWeb/backend
 npm install    # se ainda não instalou
@@ -10,14 +12,14 @@ node server.js
 Deve mostrar: Servidor rodando na porta 3000.
 deixar a porta 3000 em publico
 
-2. Configurar frontend:
+3. Configurar frontend:
 
 Em trabalhoWeb/frontend/script.js definir:
 
 const API = "link da porta 3000";
 observação: n pode ter barra no final do link
 
-3. entrar no site com live server
+4. entrar no site com live server
 
 No Codespaces, vá até a pasta:
 trabalhoWeb/frontend
@@ -26,7 +28,7 @@ Clique com botão direito nele.
 Se aparecer a opção: “Open with Live Server”, clique.
 vai abrir a lista de diretorios, e so entrar na pasta "trabalhoWeb" e depois no arquivo "frontend"
 
-4. entrar no site com o terminal
+5. entrar no site com o terminal
 
 No Codespaces, abra o terminal.
 Entre na pasta do frontend:
