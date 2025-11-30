@@ -24,6 +24,7 @@ trabalhoWeb/frontend
 Clique no arquivo index.html.
 Clique com botão direito nele.
 Se aparecer a opção: “Open with Live Server”, clique.
+vai abrir a lista de diretorios, e so entrar na pasta "trabalhoWeb" e depois no arquivo "frontend"
 
 4. entrar no site com o terminal
 
