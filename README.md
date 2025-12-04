@@ -7,6 +7,7 @@ Sistema de cadastro com Node.js, SQLite e frontend simples.
 
 cd trabalhoWeb/backend
 npm install    # se ainda não instalou
+
 node server.js
 
 Deve mostrar: Servidor rodando na porta 3000.
