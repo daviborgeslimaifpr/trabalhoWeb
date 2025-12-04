@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>CRUD Usuários</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 id="title">Sistema Básico de Usuários</h2>
+
+<div class="container" id="loginBox">
+    <h3>Login</h3>
+    <input id="log_email" placeholder="Email">
+    <input id="log_senha" placeholder="Senha" type="password">
+    <button onclick="login()">Entrar</button>
+    <p>Não tem conta? <a href="#" onclick="showRegister()">Cadastre-se</a></p>
+</div>
+
+<div class="container" id="registerBox" style="display:none;">
+    <h3>Cadastrar</h3>
+    <input id="reg_nome" placeholder="Nome">
+    <input id="reg_email" placeholder="Email">
+    <input id="reg_senha" placeholder="Senha" type="password">
+    <input id="reg_tel" placeholder="Telefone">
+    <button onclick="register()">Criar Conta</button>
+    <p>Já tem conta? <a href="#" onclick="showLogin()">Entrar</a></p>
+</div>
+
+<div id="dashboard" style="display:none;">
+    <h3>Usuários Cadastrados</h3>
+    <button onclick="logout()" class="exitBtn">Sair</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th><th>Nome</th><th>Email</th><th>Telefone</th><th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="userTable"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
